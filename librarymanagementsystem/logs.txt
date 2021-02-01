@@ -1,0 +1,220 @@
+2021-01-31 21:49:20.532  INFO 4472 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 4472 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 21:49:20.536  INFO 4472 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 21:49:21.871  INFO 4472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 21:49:21.962  INFO 4472 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2021-01-31 21:49:22.697  INFO 4472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 21:49:22.711  INFO 4472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 21:49:22.712  INFO 4472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 21:49:23.168  INFO 4472 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 21:49:23.181  INFO 4472 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 21:49:23.182  INFO 4472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2574 ms
+2021-01-31 21:49:23.580  INFO 4472 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 21:49:23.670  INFO 4472 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 21:49:23.871  INFO 4472 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 21:49:24.019  INFO 4472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 21:49:24.689  INFO 4472 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 21:49:24.718  INFO 4472 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 21:49:27.812  INFO 4472 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 21:49:27.839  INFO 4472 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 21:49:28.398  WARN 4472 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 21:49:28.552  INFO 4472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 21:49:29.142  INFO 4472 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 21:49:29.294  INFO 4472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 21:49:29.315  INFO 4472 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 9.357 seconds (JVM running for 10.354)
+2021-01-31 21:49:31.274  INFO 4472 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 21:49:31.275  INFO 4472 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 21:49:31.277  INFO 4472 --- [RMI TCP Connection(8)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-31 21:49:41.205  INFO 4472 --- [http-nio-8080-exec-1] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 21:49:43.561  INFO 4472 --- [http-nio-8080-exec-2] c.j.l.controller.AccountController       : inside getAccountDetails
+2021-01-31 21:49:43.562  INFO 4472 --- [http-nio-8080-exec-2] c.j.library.service.LibraryServiceImpl   : inside getAccountDetails
+2021-01-31 21:49:46.701  INFO 4472 --- [http-nio-8080-exec-5] c.j.library.controller.BookController    : inside getAllBooks 
+2021-01-31 21:49:46.702  INFO 4472 --- [http-nio-8080-exec-5] c.j.library.service.LibraryServiceImpl   : inside getAllBooks
+2021-01-31 21:49:48.863  INFO 4472 --- [http-nio-8080-exec-6] c.j.l.controller.LibrarianController     : inside showReg
+2021-01-31 21:50:09.972  INFO 4472 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-31 21:50:10.012  INFO 4472 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 21:50:10.016  INFO 4472 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 21:50:10.021  INFO 4472 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-31 21:50:10.032  INFO 4472 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-31 21:50:20.518  INFO 4408 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 4408 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 21:50:20.523  INFO 4408 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 21:50:21.850  INFO 4408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 21:50:21.938  INFO 4408 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+2021-01-31 21:50:22.712  INFO 4408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 21:50:22.727  INFO 4408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 21:50:22.727  INFO 4408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 21:50:23.174  INFO 4408 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 21:50:23.187  INFO 4408 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 21:50:23.188  INFO 4408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2589 ms
+2021-01-31 21:50:23.592  INFO 4408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 21:50:23.698  INFO 4408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 21:50:23.883  INFO 4408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 21:50:24.037  INFO 4408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 21:50:24.675  INFO 4408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 21:50:24.699  INFO 4408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 21:50:26.524  INFO 4408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 21:50:26.535  INFO 4408 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 21:50:27.026  WARN 4408 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 21:50:27.184  INFO 4408 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 21:50:27.761  INFO 4408 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 21:50:27.854  INFO 4408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 21:50:27.878  INFO 4408 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 7.913 seconds (JVM running for 9.02)
+2021-01-31 21:50:28.385  INFO 4408 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 21:50:28.386  INFO 4408 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 21:50:28.388  INFO 4408 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-31 21:50:34.553  INFO 4408 --- [http-nio-8080-exec-1] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 21:50:36.193  INFO 4408 --- [http-nio-8080-exec-3] c.j.l.controller.AccountController       : inside getAccountDetails
+2021-01-31 21:50:36.194  INFO 4408 --- [http-nio-8080-exec-3] c.j.library.service.LibraryServiceImpl   : inside getAccountDetails
+2021-01-31 21:50:39.148  INFO 4408 --- [http-nio-8080-exec-4] c.j.library.controller.BookController    : inside getAllBooks 
+2021-01-31 21:50:39.149  INFO 4408 --- [http-nio-8080-exec-4] c.j.library.service.LibraryServiceImpl   : inside getAllBooks
+2021-01-31 21:51:39.665  INFO 4408 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-31 21:51:39.706  INFO 4408 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 21:51:39.712  INFO 4408 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 21:51:39.720  INFO 4408 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-31 21:51:39.966  INFO 4408 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-31 21:52:18.334  INFO 2904 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 2904 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 21:52:18.361  INFO 2904 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 21:52:21.489  INFO 2904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 21:52:21.631  INFO 2904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2021-01-31 21:52:23.404  INFO 2904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 21:52:23.460  INFO 2904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 21:52:23.460  INFO 2904 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 21:52:26.282  INFO 2904 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 21:52:26.355  INFO 2904 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 21:52:26.356  INFO 2904 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7646 ms
+2021-01-31 21:52:30.702  INFO 2904 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 21:52:31.185  INFO 2904 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 21:52:34.623  INFO 2904 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 21:52:35.330  INFO 2904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 21:52:39.227  INFO 2904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 21:52:41.026  INFO 2904 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 21:52:48.295  INFO 2904 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 21:52:48.389  INFO 2904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 21:52:50.246  WARN 2904 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 21:52:51.327  INFO 2904 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 21:52:58.563  INFO 2904 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 21:53:00.859  INFO 2904 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 21:53:00.946  INFO 2904 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 45.93 seconds (JVM running for 53.542)
+2021-01-31 21:53:14.803  INFO 2904 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 21:53:14.805  INFO 2904 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 21:53:14.809  INFO 2904 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-31 21:53:15.074  INFO 2904 --- [http-nio-8080-exec-2] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 21:53:17.983  WARN 2904 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [293] milliseconds.
+2021-01-31 21:53:29.644  INFO 2904 --- [http-nio-8080-exec-3] c.j.l.controller.AccountController       : inside getAccountDetails
+2021-01-31 21:53:29.645  INFO 2904 --- [http-nio-8080-exec-3] c.j.library.service.LibraryServiceImpl   : inside getAccountDetails
+2021-01-31 21:53:36.154  INFO 2904 --- [http-nio-8080-exec-6] c.j.library.controller.BookController    : inside getAllBooks 
+2021-01-31 21:53:36.155  INFO 2904 --- [http-nio-8080-exec-6] c.j.library.service.LibraryServiceImpl   : inside getAllBooks
+2021-01-31 21:53:40.081  INFO 2904 --- [http-nio-8080-exec-8] c.j.l.controller.AccountController       : inside showAccountPage
+2021-01-31 22:55:35.014  WARN 2904 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=29m21s848ms765µs780ns).
+2021-01-31 22:55:36.657  WARN 2904 --- [RMI TCP Connection(44)-127.0.0.1] javax.management.remote.misc             : The server has decided to close this client connection.
+2021-01-31 22:58:48.215  INFO 2904 --- [RMI TCP Connection(49)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-31 22:58:50.650  INFO 2904 --- [RMI TCP Connection(49)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 22:58:50.673  INFO 2904 --- [RMI TCP Connection(49)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 22:58:51.168  INFO 2904 --- [RMI TCP Connection(49)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-31 22:58:51.386  INFO 2904 --- [RMI TCP Connection(49)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-31 23:02:12.375  INFO 3428 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 3428 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 23:02:12.391  INFO 3428 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 23:02:16.898  INFO 3428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 23:02:17.144  INFO 3428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 6 JPA repository interfaces.
+2021-01-31 23:02:19.246  INFO 3428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 23:02:19.294  INFO 3428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 23:02:19.296  INFO 3428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 23:02:20.247  INFO 3428 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 23:02:20.277  INFO 3428 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 23:02:20.278  INFO 3428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7301 ms
+2021-01-31 23:02:21.650  INFO 3428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 23:02:22.401  INFO 3428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 23:02:23.673  INFO 3428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 23:02:24.258  INFO 3428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 23:02:25.622  INFO 3428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 23:02:25.899  INFO 3428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 23:02:37.427  INFO 3428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 23:02:37.469  INFO 3428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 23:02:38.564  WARN 3428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 23:02:38.883  INFO 3428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 23:02:40.103  INFO 3428 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 23:02:40.414  INFO 3428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 23:02:40.438  INFO 3428 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 30.252 seconds (JVM running for 33.98)
+2021-01-31 23:02:40.854  INFO 3428 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 23:02:40.854  INFO 3428 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 23:02:40.856  INFO 3428 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-31 23:04:01.141  INFO 3428 --- [http-nio-8080-exec-1] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 23:05:28.214  INFO 3428 --- [http-nio-8080-exec-8] c.j.library.controller.BookController    : inside getAllBooks 
+2021-01-31 23:05:28.215  INFO 3428 --- [http-nio-8080-exec-8] c.j.library.service.LibraryServiceImpl   : inside getAllBooks
+2021-01-31 23:05:33.300  INFO 3428 --- [http-nio-8080-exec-10] c.j.library.controller.BookController    : showPage
+2021-01-31 23:05:36.394  INFO 3428 --- [http-nio-8080-exec-2] c.j.l.controller.LibrarianController     : inside showReg
+2021-01-31 23:06:10.995  INFO 3428 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-31 23:06:11.053  INFO 3428 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 23:06:11.058  INFO 3428 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 23:06:11.063  INFO 3428 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-31 23:06:11.115  INFO 3428 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-31 23:06:26.079  INFO 4892 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 4892 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 23:06:26.084  INFO 4892 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 23:06:27.375  INFO 4892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 23:06:27.532  INFO 4892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 6 JPA repository interfaces.
+2021-01-31 23:06:28.599  INFO 4892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 23:06:28.641  INFO 4892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 23:06:28.641  INFO 4892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 23:06:29.292  INFO 4892 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 23:06:29.305  INFO 4892 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 23:06:29.306  INFO 4892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3146 ms
+2021-01-31 23:06:29.888  INFO 4892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 23:06:30.236  INFO 4892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 23:06:31.502  INFO 4892 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 23:06:31.826  INFO 4892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 23:06:32.540  INFO 4892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 23:06:32.689  INFO 4892 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 23:06:36.056  INFO 4892 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 23:06:36.083  INFO 4892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 23:06:36.613  WARN 4892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 23:06:36.781  INFO 4892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 23:06:37.328  INFO 4892 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 23:06:37.448  INFO 4892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 23:06:37.467  INFO 4892 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 11.93 seconds (JVM running for 12.914)
+2021-01-31 23:06:39.972  INFO 4892 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 23:06:39.973  INFO 4892 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 23:06:39.975  INFO 4892 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-31 23:08:55.925  INFO 4892 --- [http-nio-8080-exec-3] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 23:08:59.240  INFO 4892 --- [http-nio-8080-exec-4] c.j.l.controller.AccountController       : inside getAccountDetails
+2021-01-31 23:08:59.240  INFO 4892 --- [http-nio-8080-exec-4] c.j.library.service.LibraryServiceImpl   : inside getAccountDetails
+2021-01-31 23:09:04.391  INFO 4892 --- [http-nio-8080-exec-10] c.j.l.controller.AccountController       : inside showAccountPage
+2021-01-31 23:09:21.043  INFO 4892 --- [http-nio-8080-exec-9] c.j.l.controller.AccountController       : inside saveAccountDetailsAccount(no_borrowed_books=7878, no_reserved_books=223, no_returned_books=123, no_lost_booksfine_amount=099, student=null)
+2021-01-31 23:09:21.044  INFO 4892 --- [http-nio-8080-exec-9] c.j.library.service.LibraryServiceImpl   : inside registerAccountAccount(no_borrowed_books=7878, no_reserved_books=223, no_returned_books=123, no_lost_booksfine_amount=099, student=null)
+2021-01-31 23:09:23.387  INFO 4892 --- [http-nio-8080-exec-7] c.j.l.controller.AccountController       : inside getAccountDetails
+2021-01-31 23:09:23.387  INFO 4892 --- [http-nio-8080-exec-7] c.j.library.service.LibraryServiceImpl   : inside getAccountDetails
+2021-01-31 23:10:09.725  INFO 4892 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-31 23:10:09.959  INFO 4892 --- [RMI TCP Connection(12)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-31 23:10:09.965  INFO 4892 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 23:10:09.971  INFO 4892 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-31 23:10:10.624  INFO 4892 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-31 23:10:26.030  INFO 4428 --- [main] c.j.l.LibrarymanagementsystemApplication : Starting LibrarymanagementsystemApplication using Java 15.0.1 on dell-PC with PID 4428 (C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem\target\classes started by dell in C:\Users\dell\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\librarymanagementsystem)
+2021-01-31 23:10:26.035  INFO 4428 --- [main] c.j.l.LibrarymanagementsystemApplication : No active profile set, falling back to default profiles: default
+2021-01-31 23:10:27.338  INFO 4428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-31 23:10:27.427  INFO 4428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 6 JPA repository interfaces.
+2021-01-31 23:10:28.177  INFO 4428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-31 23:10:28.191  INFO 4428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-31 23:10:28.191  INFO 4428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-31 23:10:28.639  INFO 4428 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-01-31 23:10:28.652  INFO 4428 --- [main] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring embedded WebApplicationContext
+2021-01-31 23:10:28.653  INFO 4428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2541 ms
+2021-01-31 23:10:29.051  INFO 4428 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-31 23:10:29.135  INFO 4428 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-01-31 23:10:29.337  INFO 4428 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-31 23:10:29.480  INFO 4428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-31 23:10:30.133  INFO 4428 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-31 23:10:30.158  INFO 4428 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-31 23:10:32.806  INFO 4428 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-31 23:10:32.827  INFO 4428 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-31 23:10:33.412  WARN 4428 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-31 23:10:33.568  INFO 4428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-31 23:10:34.120  INFO 4428 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-31 23:10:34.236  INFO 4428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/librarymanagementsystem'
+2021-01-31 23:10:34.256  INFO 4428 --- [main] c.j.l.LibrarymanagementsystemApplication : Started LibrarymanagementsystemApplication in 8.789 seconds (JVM running for 9.931)
+2021-01-31 23:10:35.608  INFO 4428 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[.[.[/librarymanagementsystem] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-31 23:10:35.608  INFO 4428 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-31 23:10:35.610  INFO 4428 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-31 23:10:43.439  INFO 4428 --- [http-nio-8080-exec-1] c.j.l.controller.LibrarianController     : inside showLibrarianPage
+2021-01-31 23:10:46.520  INFO 4428 --- [http-nio-8080-exec-2] c.j.library.controller.BookController    : showPage
+2021-01-31 23:11:17.390  INFO 4428 --- [http-nio-8080-exec-5] c.j.library.controller.BookController    : inside saveBookBook(id=null, title=tom jerry, author=daniels, isbn=5-5-9-0, publication=maters, students=null, librarian=null)
+2021-01-31 23:11:17.391  INFO 4428 --- [http-nio-8080-exec-5] c.j.library.service.LibraryServiceImpl   : inside addBookBook(id=null, title=tom jerry, author=daniels, isbn=5-5-9-0, publication=maters, students=null, librarian=null)
+2021-01-31 23:11:19.674  INFO 4428 --- [http-nio-8080-exec-7] c.j.library.controller.BookController    : inside getAllBooks 
+2021-01-31 23:11:19.675  INFO 4428 --- [http-nio-8080-exec-7] c.j.library.service.LibraryServiceImpl   : inside getAllBooks
